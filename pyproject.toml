@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "casper-u"
+version = "0.1.0"
+description = "Cross-layer speech representations and corpus-conditioned emotion recognition"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24,<3",
+  "pandas>=2.0,<4",
+  "scipy>=1.10,<2",
+  "scikit-learn>=1.3,<2",
+  "torch>=2.2,<3",
+  "transformers>=4.40,<6",
+  "soundfile>=0.12,<1",
+  "librosa>=0.10,<0.12",
+  "tqdm>=4.65,<5",
+]
+
+[tool.setuptools.packages.find]
+include = ["casper_u*"]

@@ -1,0 +1,10 @@
+# Only the source and project documentation are eligible for version control.
+*
+!/.gitignore
+!/README.md
+!/pyproject.toml
+!/requirements.txt
+!/casper_u/
+!/casper_u/*.py
+!/docs/
+!/docs/*.md
